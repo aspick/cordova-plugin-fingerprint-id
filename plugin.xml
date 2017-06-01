@@ -45,13 +45,13 @@
   <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="SamsungPass">
-                <param name="android-package" value="com.<>.fingerprint.SamsungPass" />
+                <param name="android-package" value="com.susanne.fingerprint.SamsungPass" />
             </feature>
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
         </config-file>
-        <source-file src="src/android/SamsungPass.java" target-dir="src/<>/fingerprint/" />
+        <source-file src="src/android/SamsungPass.java" target-dir="src/susanne/fingerprint/" />
         <source-file src="src/android/jars/pass-v1.2.1.jar" target-dir="libs/" />
         <source-file src="src/android/jars/sdk-v1.0.0.jar" target-dir="libs/" />
     </platform>
